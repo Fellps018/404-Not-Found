@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="assets/icone.png" />
 <title>Erro 404</title>
 
 <style>
@@ -30,7 +31,7 @@
     .error{
         font-size:120px;
         font-weight:bold;
-        color:#4CAF50;
+        color:#9e4caf;
         position:relative;
         animation: flutuar 2s ease-in-out infinite;
     }
@@ -46,7 +47,7 @@
 
     h2{
         margin-top:10px;
-        color:#2e7d32;
+        color:#612e7d;
     }
 
     p{
@@ -59,7 +60,7 @@
         margin-top:25px;
         display:inline-block;
         padding:12px 25px;
-        background:#81C784;
+        background:#ae81c7;
         color:white;
         text-decoration:none;
         border-radius:8px;
@@ -68,7 +69,7 @@
     }
 
     .btn:hover{
-        background:#4CAF50;
+        background:#a04caf;
         transform:scale(1.05);
     }
 
@@ -76,7 +77,7 @@
     .circle{
         position:absolute;
         border-radius:50%;
-        background:rgba(129,199,132,0.2);
+        background:rgba(181, 129, 199, 0.2);
         animation: subir 8s linear infinite;
     }
 
@@ -103,7 +104,7 @@
 
     @keyframes subir{
         0%{
-            bottom:-150px;
+            bottom:-250px;
             opacity:0;
         }
         50%{
@@ -127,8 +128,8 @@
 <div class="container">
     <div class="error">404</div>
     <h2>Página não encontrada</h2>
-    <p>Ops! Parece que você se perdeu pelo caminho.</p>
-    <a href="/" class="btn">Voltar para Home</a>
+    <p>Ops! Ainda estou trabalhando nisso.</p>
+    <a href="javascript:history.back()" class="btn"> Voltar </a>
 </div>
 
 </body>
