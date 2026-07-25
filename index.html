@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" href="assets/icone.png" />
-<title>Erro 404</title>
+<link rel="icon" href="assets/icon.png" />
+<title>Erro-404</title>
 
 <style>
     *{
@@ -60,7 +60,7 @@
         margin-top:25px;
         display:inline-block;
         padding:12px 25px;
-        background:#ae81c7;
+        background:#985fca;
         color:white;
         text-decoration:none;
         border-radius:8px;
@@ -69,62 +69,15 @@
     }
 
     .btn:hover{
-        background:#a04caf;
+        background:#814caf;
         transform:scale(1.05);
     }
 
-    /* Bolhas decorativas animadas */
-    .circle{
-        position:absolute;
-        border-radius:50%;
-        background:rgba(181, 129, 199, 0.2);
-        animation: subir 8s linear infinite;
-    }
-
-    .circle:nth-child(1){
-        width:120px;
-        height:120px;
-        left:10%;
-        animation-delay:0s;
-    }
-
-    .circle:nth-child(2){
-        width:80px;
-        height:80px;
-        left:70%;
-        animation-delay:2s;
-    }
-
-    .circle:nth-child(3){
-        width:60px;
-        height:60px;
-        left:40%;
-        animation-delay:4s;
-    }
-
-    @keyframes subir{
-        0%{
-            bottom:-250px;
-            opacity:0;
-        }
-        50%{
-            opacity:1;
-        }
-        100%{
-            bottom:110%;
-            opacity:0;
-        }
-    }
 
 </style>
 </head>
 
 <body>
-
-<div class="circle"></div>
-<div class="circle"></div>
-<div class="circle"></div>
-
 <div class="container">
     <div class="error">404</div>
     <h2>Página não encontrada</h2>
