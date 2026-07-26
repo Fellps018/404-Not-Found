@@ -23,9 +23,21 @@
         background: rgb(255, 255, 255);
         overflow:hidden;
     }
+   .wrapper{
+      position: absolute;
+      width: 40%;
+      background-color: purple;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      filter: blur(80px);
+      z-index: 1;
+      
+   }     
 
     .container{
         text-align:center;
+        z-index: 2;
     }
 
     /* Número 404 animado */
@@ -36,16 +48,7 @@
         position:relative;
         animation: flutuar 2s ease-in-out infinite;
     }
-
-    @keyframes flutuar {
-        0%,100%{
-            transform: translateY(0);
-        }
-        50%{
-            transform: translateY(-15px);
-        }
-    }
-
+   
     h2{
         margin-top:10px;
         color:#612e7d;
@@ -79,6 +82,7 @@
 </head>
 
 <body>
+<div class="wrapper"></div>
 <div class="container">
     <div class="error">404</div>
     <h2>Página não encontrada</h2>
