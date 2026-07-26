@@ -22,18 +22,7 @@
         user-select: none;
         background: rgb(255, 255, 255);
         overflow:hidden;
-    }
-   .wrapper{
-      position: absolute;
-      width: 40%;
-      background-color: purple;
-      border-radius: 50%;
-      top: 50%;
-      left: 50%;
-      filter: blur(80px);
-      z-index: 1;
-      
-   }     
+    }  
 
     .container{
         text-align:center;
@@ -44,7 +33,7 @@
     .error{
         font-size:120px;
         font-weight:bold;
-        color:#9e4caf;
+        color:#741189;
         position:relative;
         animation: flutuar 2s ease-in-out infinite;
     }
@@ -64,7 +53,7 @@
         margin-top:25px;
         display:inline-block;
         padding:12px 25px;
-        background:#985fca;
+        background:#000000;
         color:white;
         text-decoration:none;
         border-radius:8px;
@@ -73,16 +62,19 @@
     }
 
     .btn:hover{
-        background:#814caf;
         transform:scale(1.05);
     }
+ @media (pointer: coarse) {
+   .btn{
+       cursor: none;
+    }
+}
 
 
 </style>
 </head>
 
 <body>
-<div class="wrapper"></div>
 <div class="container">
     <div class="error">404</div>
     <h2>Página não encontrada</h2>
